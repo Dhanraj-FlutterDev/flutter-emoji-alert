@@ -45,15 +45,15 @@ class _HomeScreenState extends State<HomeScreen> {
                     emojiSize: 100,
                     height: 250,
                     cancelable: true,
-                    // enableMainButton: true,
-                    // mainButtonText: Text('Keep Out'),
-                    // mainButtonColor: Colors.red,
+                    enableMainButton: true,
+                    mainButtonText: const Text('Keep Out'),
+                    mainButtonColor: Colors.red,
                     onMainButtonPressed: () {
                       Navigator.pop(context);
                     },
                     background: Colors.black54,
                     description: Column(
-                      children: [
+                      children: const [
                         Text(
                           'This is Description',
                           style: TextStyle(color: Colors.white, fontSize: 20),
